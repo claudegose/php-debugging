@@ -150,13 +150,13 @@ function isLinkValid(string $link) {
     return 'Acceptable<br />';
 }
 //invalid link
-isLinkValid('http://www.google.com/hack.pdf');
+$isLinkValid1 = ('http://www.google.com/hack.pdf');
 //invalid link
-isLinkValid('https://google.com');
+$isLinkValid2 = ('https://google.com');
 //VALID link
-isLinkValid('http://google.com');
+$isLinkValid3 = ('http://google.com');
 //VALID link
-isLinkValid('http://google.com/test.txt');
+$isLinkValid4 = ('http://google.com/test.txt');
 
 
 new_exercise(10);
