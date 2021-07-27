@@ -21,7 +21,7 @@ echo "<br>";
 //3
 echo "<br>Exercise 3";
 $str = "<br>Debugged!";
-echo substr($str, 0, 10);
+echo substr($str, 0, 13);
 
 echo "<br>";
 echo "<br>";
